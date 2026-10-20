@@ -15,7 +15,7 @@ urlpatterns = [
     path('servicios/<int:pk>/editar/', views.editar_servicio, name='editar_servicio'),
     # /servicios/<id>/eliminar/: eliminar con confirmación (Semana 5)
     path('servicios/<int:pk>/eliminar/', views.eliminar_servicio, name='eliminar_servicio'),
-    # /registro/: NUEVA, pantalla de alta de cuenta
+    # /registr  o/: NUEVA, pantalla de alta de cuenta
     path('registro/', views.registro, name='registro'),
     # /login/: NUEVA, pantalla de inicio de sesión propia (reemplaza al login prestado de /admin)
     path('login/', views.iniciar_sesion, name='login'),
